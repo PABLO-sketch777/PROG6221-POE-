@@ -1,0 +1,23 @@
+<Window x:Class="ConsoleApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CyberSafe Chatbot" Height="450" Width="800">
+
+    <Grid>
+        <StackPanel>
+            <Border Background="#1e293b" Padding="10">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="logo.png" Width="50" Height="50"/>
+                    <TextBlock Text="CyberSafe Chatbot" Foreground="White" FontSize="20" Margin="10,0"/>
+                </StackPanel>
+            </Border>
+
+            <ListBox Name="ChatBox" Height="300" Margin="10"/>
+
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBox Name="UserInput" Width="600" Height="30"/>
+                <Button Content="Send" Width="100" Click="SendMessage_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
