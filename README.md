@@ -4,7 +4,7 @@ Cybersecurity Awareness Chatbot
 A desktop cybersecurity awareness chatbot application built with C#, WPF, .NET 8, Entity Framework Core and SQLite.
 
 Features
----------
+=========
 -Interactive cybersecurity chatbot
 -Keyword and intent recognition
 -Sentiment-aware responses
@@ -24,7 +24,7 @@ SQLite
 Git/Github
 
 Screenshots
------------
+============
 
 
 
